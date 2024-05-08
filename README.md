@@ -1,24 +1,25 @@
-# ExpNo 7 : Implement Alpha-beta pruning of Minimax Search Algorithm for a Simple TIC-TAC-TOE Game
-### Name:Silambarasan K
-### Register Number: 212221230101
-## Aim:
+<h2 align = center>ExpNo 7 : Implement Alpha-beta pruning of Minimax Search Algorithm for a Simple TIC-TAC-TOE Game</h2>
+#### Name:Silambarasan K
+#### Register Number: 212221230101
+#### Date: 22/03/2024
+### Aim:
 Implement Alpha-beta pruning of Minimax Search Algorithm for a Simple TIC-TAC-TOE Game
 
-## GOALS of Alpha-Beta Pruning in MiniMax Search Algorithm
+### GOALS of Alpha-Beta Pruning in MiniMax Search Algorithm
 Improve the decision-making efficiency of the computer player by reducing the number of evaluated nodes in the game tree.
 Tic-Tac-Toe game implementation incorporating the Alpha-Beta pruning and the Minimax algorithm with Python Code.
-## IMPLEMENTATION
+### IMPLEMENTATION
 The project involves developing a Tic-Tac-Toe game implementation incorporating the Alpha-Beta pruning with the Minimax algorithm. Using this algorithm, the computer player analyzes the game state, evaluates possible moves, and selects the optimal action based on the anticipated outcomes.
 
-## The Minimax algorithm
+### The Minimax algorithm
 recursively evaluates all possible moves and their potential outcomes, creating a game tree.
 
-## Alpha-Beta pruning
+### Alpha-Beta pruning
 Alpha–Beta (𝛼−𝛽) algorithm is actually an improved minimax using a heuristic. It stops evaluating a move when it makes sure that it’s worse than a previously examined move. Such moves need not to be evaluated further.
 
 When added to a simple minimax algorithm, it gives the same output but cuts off certain branches that can’t possibly affect the final decision — dramatically improving the performance
 
-## Program
+### Program
 ```
 import time
 
@@ -201,8 +202,9 @@ class Game:
         if __name__ == "__main__":
             main()
 ```
-## Sample Input and Output:
-![277157251-8d5e329a-9aff-41a6-bcf0-46efa10e1b92](https://github.com/22003264/19AI405ExpNo7/assets/119389139/5857eed9-5a27-4057-aefa-7efdf4565535)
+### Sample Input and Output:
 
-## Result:
+<img src="https://github.com/22003264/19AI405ExpNo7/assets/119389139/5857eed9-5a27-4057-aefa-7efdf4565535" width="250"height="250">
+
+### Result:
 Thus,Implementation of Alpha-beta pruning of Minimax Search Algorithm for a Simple TIC-TAC-TOE game was done successfully.
