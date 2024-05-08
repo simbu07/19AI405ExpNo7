@@ -205,7 +205,7 @@ class Game:
 ```
 ### Sample Input and Output:
 
-<img src="https://github.com/22003264/19AI405ExpNo7/assets/119389139/5857eed9-5a27-4057-aefa-7efdf4565535" width="250"height="250">
+<img src="https://github.com/22003264/19AI405ExpNo7/assets/119389139/5857eed9-5a27-4057-aefa-7efdf4565535" width="250" height="250">
 
 ### Result:
 Thus,Implementation of Alpha-beta pruning of Minimax Search Algorithm for a Simple TIC-TAC-TOE game was done successfully.
